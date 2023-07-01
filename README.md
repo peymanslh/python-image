@@ -7,4 +7,15 @@ Installed packages:
 - python-dev
 - build-essential
 
+## Usage
+Use it in your Dockerfile:
+```Dockerfile
+FROM peymanslh/python:latest
 
+# Do other stuff here
+
+```
+Or, pull it from Docker Hub:
+```bash
+docker pull peymanslh/python:latest
+```
